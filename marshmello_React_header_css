@@ -1,0 +1,32 @@
+import TechText from './TechText';
+
+<div style={{ width: '100%', height: '480px', position: 'relative' }}>
+  <TechText
+    text="mars.hmello"
+    fontWeight={600}
+    fontSize={150}
+    reveal="area"
+    dashLength={4}
+    dashGap={2}
+    specks={0}
+    intro="type"
+    introDuration={1.4}
+    clickKick
+    guides={false}
+    fontFamily=""
+    letterSpacing={-0.05}
+    accentColor="#ef4444"
+    reach={240}
+    softness={0.85}
+    lineStyle="solid"
+    strokeWidth={1}
+    speed={1}
+    bounce={0.4}
+    selection
+    labels={false}
+    color="#ef7144"
+    align="center"
+    draggable
+    sweep
+/>
+</div>
